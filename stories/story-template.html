@@ -6,7 +6,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>My Stories</title>
+    <title>The Magic Garden - My Stories</title>
     <style>
         body {
             font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -17,7 +17,7 @@
         }
         
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -41,71 +41,25 @@
             margin-top: 10px;
         }
         
-        .stories-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-        }
-        
-        .story-card {
-            background-color: white;
-            border-radius: 15px;
-            padding: 20px;
-            width: 250px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-        }
-        
-        .story-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .story-card h2 {
-            color: #8a508f;
-            margin-top: 0;
-        }
-        
-        .story-date {
-            color: #aaa;
-            font-size: 0.8em;
-            margin-bottom: 10px;
-        }
-        
-        .story-preview {
-            margin-bottom: 15px;
-        }
-        
-        .read-more {
-            display: inline-block;
-            background-color: #8bd3dd;
-            color: #5a4b3e;
-            padding: 8px 16px;
-            border-radius: 20px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
-        
-        .read-more:hover {
-            background-color: #3ab7bf;
-        }
-        
-        footer {
-            margin-top: 40px;
-            text-align: center;
-            padding: 20px;
-            background-color: #ffd5e5;
-            border-radius: 15px 15px 0 0;
-        }
-        
         .story-page {
             background-color: white;
             border-radius: 15px;
             padding: 30px;
             margin-top: 30px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        
+        .story-title {
+            color: #8a508f;
+            margin-top: 0;
+        }
+        
+        .story-date {
+            color: #aaa;
+            font-style: italic;
+            margin-bottom: 20px;
         }
         
         .back-button {
@@ -117,6 +71,18 @@
             text-decoration: none;
             font-weight: bold;
             margin-bottom: 20px;
+        }
+        
+        .back-button:hover {
+            background-color: #3ab7bf;
+        }
+        
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            background-color: #ffd5e5;
+            border-radius: 15px 15px 0 0;
         }
         
         /* Add some whimsical decorative elements */
@@ -160,34 +126,26 @@
             <p class="tagline">A collection of amazing adventures by Danielle</p>
         </header>
         
-        <div class="stories-container">
-            <!-- Story card template - duplicate for each story -->
-            <div class="story-card">
-                <h2>Uncle John's Come to the House</h2>
-                <div class="story-date">2024</div>
-                <div class="story-preview">
-                    Uncle John's Come to visit is for readers ages 9 and under. This wholesome story about cousins will encourage all in righteousness.
-                </div>
-                <a href="stories/unclejohns.html" class="read-more">Read Story</a>
-            </div>
-                        
-            <div class="story-card">
-                <h2>Anna</h2>
-                <div class="story-date">2025</div>
-                <div class="story-preview">
-                    Anna skipped happily to the house. She and her family had just moved... Follow Anna as she moves into her new home. This story is aimed at 5-13 year olds.
-                </div>
-                <a href="stories/anna.html" class="read-more">Read Story</a>
-            </div>
-
-            <div class="story-card">
-                <h2>Anna's Kitten</h2>
-                <h3>A sequel to Anna</h3>
-                <div class="story-date">2025</div>
-                <div class="story-preview">
-                    In front of her eyes there was a little brown kitten with white socks... Follow Anna as she takes care of her kitten. This story is aimed at 5-13 year olds.
-                </div>
-                <a href="stories/annas-kitten.html" class="read-more">Read Story</a>
+        <a href="../index.html" class="back-button">← Back to all stories</a>
+        
+        <div class="story-page">
+            <h2 class="story-title">The Magic Garden</h2>
+            <div class="story-date">May 10, 2025</div>
+            
+            <div class="story-content">
+                <p>Once upon a time, there was a little girl who found a key that opened a secret garden. The key was old and rusty, but somehow it glimmered in the sunlight as if it was trying to tell her something important.</p>
+                
+                <p>"I wonder what this opens," she thought to herself as she tucked the key into her pocket.</p>
+                
+                <p>The next day, while playing near the old stone wall at the edge of her backyard, she noticed something she had never seen before: a small wooden door, almost hidden by ivy and wildflowers.</p>
+                
+                <p>Her heart beating with excitement, she pulled the key from her pocket. It fit perfectly into the lock! With a gentle turn, the door creaked open, revealing the most beautiful garden she had ever seen.</p>
+                
+                <p>Butterflies danced among flowers of every color, and the air was filled with sweet perfume. In the center of the garden stood a magnificent old tree, its branches reaching up to the sky.</p>
+                
+                <p>As the girl stepped into the garden, she realized this was just the beginning of her adventure...</p>
+                
+                <!-- Continue the story here -->
             </div>
         </div>
         
